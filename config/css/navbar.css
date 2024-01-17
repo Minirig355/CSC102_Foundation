@@ -1,0 +1,30 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #38444d;
+  font-variant: normal;
+}
+li {
+  float: left;
+  font-variant: normal;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-variant: normal;
+  font-size:28px;
+}
+
+ul li a.active-page {
+  background-color: #2a333a;
+}
+
+li a:hover {
+  background-color: orange;
+}
